@@ -34,6 +34,7 @@ The prebuilt tarball extracts from `/` into `/usr/local/xz-5.8.3`, and includes
 symlinks into `/usr/local/bin`, which is already on the stock OpenServer `PATH`:
 
 ```sh
+curl -LO https://github.com/tachytelic/XZ-5.8.3-for-SCO-OpenServer-5/releases/download/v1.0.0/xz-5.8.3-sco.tar.gz
 cd / && gunzip -c xz-5.8.3-sco.tar.gz | /usr/bin/tar xf -
 xz --version
 ```
