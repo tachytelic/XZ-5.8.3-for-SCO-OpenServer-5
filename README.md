@@ -28,7 +28,7 @@ version still receiving upstream security fixes.
 > [curl with TLS](https://github.com/tachytelic/curl-7.88.1-for-SCO-OpenServer-5)
 > and [GNU tar](https://github.com/tachytelic/tar-1.34-for-SCO-OpenServer-5)
 > first. The full set of builds is indexed at
-> [tachytelic.net](https://tachytelic.net/2017/07/sco-openserver-5-binaries/).
+> [tachytelic.net](https://scoexpert.com/guides/sco-openserver-5-binaries/).
 
 The prebuilt tarball extracts from `/` into `/usr/local/xz-5.8.3`, and includes
 symlinks into `/usr/local/bin`, which is already on the stock OpenServer `PATH`:
